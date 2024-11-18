@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #4CAF50;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: calc(33% - 10px);
+    padding: 10px;
+    margin: 10px 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.block {
+    border: 1px solid #4CAF50;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+.block h3 {
+    color: #4CAF50;
+}
+
+.block p {
+    margin: 5px 0;
+}
+.container {
+    max-width: 1200px; /* Maximális szélesség beállítása */
+    margin: 0 auto; /* Középre igazítás */
+    padding: 20px;
+}
+
+.block-container {
+    display: flex; /* Flexbox használata a rácsos elrendezéshez */
+    flex-wrap: wrap; /* A blokkok törése, ha szükséges */
+    justify-content: space-between; /* A blokkok közötti távolság */
+}
+
+.block {
+    width: 47%; /* Minden blokk szélessége */
+    margin: 5px; /* Margó a blokkok között */
+    padding: 10px;
+    border: 1px solid #ccc; /* Példa a keretre */
+    border-radius: 5px; /* Lekerekített sarkok */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Árnyék a blokkokhoz */
+    min-height: 100px; /* Minimális magasság a blokkoknak */
+    word-wrap: break-word; /* Hosszú szavak tördelése */
+    overflow: hidden; 
+}
+.ul{
+    list-style-type: none;
+}
+
+
+
